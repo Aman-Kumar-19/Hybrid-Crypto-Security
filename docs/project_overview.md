@@ -52,6 +52,10 @@ Then open one of the analysis notebooks:
 - **`Average_operation_time_and_Data_size.ipynb`**  
 
 ---
+##Proposed model
+![proposed_model_diagram](https://github.com/user-attachments/assets/cf6a978d-a77a-48c2-95fe-20f1a4f69d2f)
+
+----
 ## 📊 Results & Performance Analysis
 📌 Key Findings:
 
@@ -67,15 +71,6 @@ Aman Kumar (Lead Developer & Researcher)
 ## 📖 References
 Research Paper: Hybrid Cryptographic Approach for Strengthening 5G/B5G Security
 Cryptographic Standards: AES, DES, RSA, and S-Box Theory
----
-### ✅ Steps to Upload:  
-1. Open your GitHub repository.  
-2. Navigate to `docs/` and open `project_overview.md`.  
-3. Click the **edit (pencil) icon**.  
-4. **Paste the content above** into the file.  
-5. Scroll down and write a commit message like:  
-   - `"Added project overview for Hybrid Cryptographic Approach"`  
-6. Click **Commit changes**.  
 ---
 You're done! 🚀
 
