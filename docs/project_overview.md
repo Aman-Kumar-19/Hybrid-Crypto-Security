@@ -52,7 +52,7 @@ Then open one of the analysis notebooks:
 - **`Average_operation_time_and_Data_size.ipynb`**  
 
 ---
-##Proposed model
+## Proposed model
 ![proposed_model_diagram](https://github.com/user-attachments/assets/cf6a978d-a77a-48c2-95fe-20f1a4f69d2f)
 
 ----
