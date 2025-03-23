@@ -23,6 +23,7 @@ This repository provides an **implementation**, **performance evaluation**, and 
 📌 **S-Box Optimization** – Custom S-Box configurations for AES and DES.  
 
 ---
+![testing (1)](https://github.com/user-attachments/assets/dcb26d5f-864f-4301-92a6-50a59d62fe80)
 
 ## 📊 Performance Metrics  
 ### ✅ **Speed vs. Security**  
