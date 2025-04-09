@@ -6,7 +6,13 @@ This project presents a hybrid cryptographic model combining **AES (Advanced Enc
 The objective is to evaluate **encryption performance, throughput, and data handling efficiency** using benchmark comparisons and statistical analysis.  
 
 ---
+## 🎯 Why Hybrid Encryption?  
+🔹 **Combining Symmetric & Asymmetric Encryption** – Ensures speed and security.  
+🔹 **Resists Quantum Threats** – Strengthens against potential future attacks.  
+🔹 **Improved Key Management** – Uses **RSA** for secure key exchange.  
+🔹 **Balanced Speed & Complexity** – Enhances efficiency compared to standalone AES or DES.
 
+---
 ## 🔹 Features & Objectives  
 
 ✅ **Hybrid AES-DES-RSA Encryption** → Strengthens security by leveraging symmetric and asymmetric cryptographic techniques.  
