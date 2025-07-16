@@ -1,0 +1,47 @@
+Hybrid Cryptographic Model: ESP32 Test Logs
+===========================================
+
+Device: ESP32-WROOM-32
+Firmware: Hybrid AES-DES-RSA Implementation
+Libraries Used: WiFi.h, ThingSpeak.h, AESLib, Custom S-box and P-box logic
+
+----------------------------------------------
+Encryption/Decryption Results (in milliseconds)
+----------------------------------------------
+Bit-length   | Encryption Time | Decryption Time | Decryption Validity
+---------------------------------------------------------------
+8 bits       | 1.02 ms         | 0.95 ms         | ✅ Valid
+16 bits      | 1.15 ms         | 0.91 ms         | ✅ Valid
+32 bits      | 1.34 ms         | 1.08 ms         | ✅ Valid
+64 bits      | 1.61 ms         | 1.42 ms         | ✅ Valid
+96 bits      | 1.88 ms         | 1.73 ms         | ✅ Valid
+128 bits     | 2.02 ms         | 1.95 ms         | ✅ Valid
+
+----------------------------------------------
+ThingSpeak Upload Times
+----------------------------------------------
+Payload (bits) | Transmission Time
+-------------------------------
+8              | 949 ms
+16             | 981 ms
+32             | 1023 ms
+64             | 1098 ms
+96             | 1203 ms
+128            | 1262 ms
+
+----------------------------------------------
+Memory Utilization (as printed via Serial)
+----------------------------------------------
+Flash Used: 906,962 bytes (69% of 1,310,720 bytes)
+Dynamic RAM: 46,860 bytes (14% of 327,680 bytes)
+Free Heap: ~280,820 bytes
+
+----------------------------------------------
+Summary
+----------------------------------------------
+- All encrypted messages were successfully decrypted and marked valid.
+- Transmission to ThingSpeak was successful across all test cases.
+- Latency and memory footprint remained within IoT and 5G application tolerances.
+- Custom AES/DES S-boxes and hybrid logic executed correctly in real-time.
+
+
